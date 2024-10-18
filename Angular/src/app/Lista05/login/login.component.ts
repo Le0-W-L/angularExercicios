@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { OffcanvasService } from '../offcanvas.service';  // Importa o serviço
+import { OffcanvasService } from '../../offcanvas.service';  // Importa o serviço
 
 @Component({
   selector: 'app-login',

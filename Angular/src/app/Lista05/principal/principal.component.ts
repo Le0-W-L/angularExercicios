@@ -1,5 +1,5 @@
 import { Component, ViewChild, TemplateRef, OnInit } from '@angular/core';
-import { OffcanvasService } from '../offcanvas.service';
+import { OffcanvasService } from '../../offcanvas.service';
 
 @Component({
   selector: 'app-principal',
