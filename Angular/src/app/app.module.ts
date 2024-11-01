@@ -11,6 +11,8 @@ import { MediaCalculoComponent } from './Lista06/media-calculo/media-calculo.com
 import { CalculadoraComponent } from './Lista06/calculadora/calculadora.component';
 import { CadastroAlunoComponent } from './Lista06/cadastro-aluno/cadastro-aluno.component';
 import { ApoliceSeguroComponent } from './Lista06/apolice-seguro/apolice-seguro.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RodapeComponent } from './Lista07/rodape/rodape.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +22,15 @@ import { ApoliceSeguroComponent } from './Lista06/apolice-seguro/apolice-seguro.
     MediaCalculoComponent,
     CalculadoraComponent,
     CadastroAlunoComponent,
-    ApoliceSeguroComponent
+    ApoliceSeguroComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()
